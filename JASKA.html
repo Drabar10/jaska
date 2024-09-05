@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISMAEEL SOODEQ - JASKA Échange de Monnaies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin: 20px 0;
+            color: #777;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>ISMAEEL SOODEQ (JASKA) - Échange de Monnaies</h1>
+        <p>Contactez-nous: Orange Money : 75761004 | Nigeria : +2349124594824</p>
+    </header>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">À propos</a>
+        <a href="#evaluation">Évaluer les Monnaies</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="services">
+        <h2>Nos Services</h2>
+        <p>Nous proposons des services d'échange de différentes devises, notamment :</p>
+        <ul>
+            <li>Francs CFA</li>
+            <li>Naira</li>
+            <li>Cedis</li>
+            <li>Euros</li>
+            <li>Dollars</li>
+        </ul>
+        <p>Contactez-nous pour des taux d'échange compétitifs et un service rapide et sécurisé.</p>
+    </section>
+
+    <section id="about">
+        <h2>À propos de JASKA</h2>
+        <p>Je m'appelle ISMAEEL SOODEQ, surnommé JASKA. Je suis un spécialiste des échanges de devises depuis plusieurs années. Mon objectif est d'offrir des services fiables et efficaces pour tous vos besoins d'échange de monnaies.</p>
+    </section>
+
+    <section id="evaluation">
+        <h2>Évaluer les Monnaies</h2>
+        <p>Sélectionnez les devises que vous souhaitez évaluer :</p>
+        <form action="#" method="post">
+            <label for="from_currency">De :</label>
+            <select id="from_currency" name="from_currency">
+                <option value="CFA">Francs CFA</option>
+                <option value="NAIRA">Naira</option>
+                <option value="CEDIS">Cedis</option>
+                <option value="EURO">Euro</option>
+                <option value="DOLLAR">Dollar</option>
+            </select>
+
+            <label for="to_currency">À :</label>
+            <select id="to_currency" name="to_currency">
+                <option value="CFA">Francs CFA</option>
+                <option value="NAIRA">Naira</option>
+                <option value="CEDIS">Cedis</option>
+                <option value="EURO">Euro</option>
+                <option value="DOLLAR">Dollar</option>
+            </select>
+
+            <label for="amount">Montant :</label>
+            <input type="number" id="amount" name="amount" required>
+
+            <button type="submit">Évaluer</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ISMAEEL SOODEQ (JASKA) - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
